@@ -1,0 +1,226 @@
+
+
+#mal_cs_listinfo strong a,
+#mal_cs_links div:last-of-type a:first-of-type,
+#mal_cs_links div:last-of-type a:last-of-type,
+#mal_cs_otherlinks div:last-of-type a:first-of-type,
+#mal_cs_otherlinks div:last-of-type a:nth-of-type(2),
+#mal_cs_otherlinks div:last-of-type a:last-of-type
+{display: block;
+height: 25px;
+width: 25px;
+position: fixed;
+font-size: 0px !important;
+color: transparent !important;
+background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+z-index: 10;
+left: 945px;
+background-position: center;
+background-repeat: no-repeat;
+transition: all 0.6s ease-out;}
+#mal_cs_otherlinks div:last-of-type a:first-of-type,
+#mal_cs_otherlinks div:last-of-type a:nth-of-type(2),
+#mal_cs_otherlinks div:last-of-type a:last-of-type
+{z-index: 5 !important}
+
+#mal_cs_listinfo strong a, #mal_cs_otherlinks div:last-of-type a:first-of-type
+{top: 20px;}
+#mal_cs_links div:last-of-type a:first-of-type, #mal_cs_otherlinks div:last-of-type a:nth-of-type(2)
+{top: 65px;}
+#mal_cs_links div:last-of-type a:last-of-type, #mal_cs_otherlinks div:last-of-type a:last-of-type
+{top: 110px;}
+
+#mal_cs_listinfo strong a
+{background-image: url(http://db.tt/XWOCAKtl);}
+#mal_cs_links div:last-of-type a:first-of-type
+{background-image: url(http://db.tt/y590wkH7);}
+#mal_cs_links div:last-of-type a:last-of-type
+{background-image: url(http://db.tt/hrJDsyUa);}
+#mal_cs_otherlinks div:last-of-type a:first-of-type
+{background-image: url(http://db.tt/K38Kc6Rt);}
+#mal_cs_otherlinks div:last-of-type a:nth-of-type(2)
+{background-image: url(http://db.tt/S60jfDFp);}
+#mal_cs_otherlinks div:last-of-type a:last-of-type
+{background-image: url(http://db.tt/5VgNaBGZ);}
+
+#mal_cs_listinfo strong a:hover,
+#mal_cs_links div:last-of-type a:first-of-type:hover,
+#mal_cs_links div:last-of-type a:last-of-type:hover,
+#mal_cs_otherlinks div:last-of-type a:first-of-type:hover,
+#mal_cs_otherlinks div:last-of-type a:nth-of-type(2):hover,
+#mal_cs_otherlinks div:last-of-type a:last-of-type:hover
+{background-color: #FFCB00;
+transition: all 0.6s ease-in;}
+
+#mal_cs_listinfo div:last-of-type,
+#mal_cs_links a[href="/"],
+#mal_cs_otherlinks div:first-of-type,
+#mal_cs_powered,
+#mal_cs_pic img
+{display: none;
+font-size: 0px !important;
+color: transparent;}
+#mal_control_strip
+{height: 0px !important;
+width: 1px !important;
+background: none !important;}
+#mal_control_strip td
+{border: none;}
+#mal_cs_otherlinks div:last-of-type
+{font-size: 0px !important;
+color: transparent;}
+#mal_cs_pic a, #mal_cs_links a.List_LightBox
+{visibility: hidden !important;}
+
+
+
+
+
+
+
+
+.status_selected, .status_not_selected {
+  font-family: calibri;
+  font-size: 10px;
+	letter-spacing: 1px;
+  display: block;
+  position: fixed;
+  width: 125px;
+  height: 19px;
+  left: 20px;
+  text-transform: uppercase;
+  padding: 6px 5px 0;
+  line-height: 12px;
+}
+
+.status_selected a, .status_not_selected a {
+  color: #ffffff !important;
+}
+
+.status_selected:first-of-type{
+	top: 20px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	}
+.status_selected:nth-of-type(2){
+	top: 65px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	transition: all 0.6s ease-in;
+	}
+.status_selected:nth-of-type(3){
+	top: 110px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	transition: all 0.6s ease-in;
+	}
+.status_selected:nth-of-type(4){
+	top: 155px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	transition: all 0.6s ease-in;
+	}
+.status_selected:nth-of-type(5){
+	top: 200px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	transition: all 0.6s ease-in;
+	}
+.status_selected:last-of-type{
+	top: 245px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	transition: all 0.6s ease-in;
+	}
+	
+	
+.status_not_selected:first-of-type{
+	top: 20px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+	transition: all 0.6s ease-in;
+	}
+.status_not_selected:nth-of-type(2){
+	top: 65px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+	transition: all 0.6s ease-in;
+	}
+.status_not_selected:nth-of-type(3){
+	top: 110px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+	transition: all 0.6s ease-in;
+	}
+.status_not_selected:nth-of-type(4){
+	top: 155px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+	transition: all 0.6s ease-in;
+	}
+.status_not_selected:nth-of-type(5){
+	top: 200px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+	transition: all 0.6s ease-in;
+	}
+.status_not_selected:last-of-type{
+	top: 245px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+	transition: all 0.6s ease-in;
+	}
+	
+	
+	
+.status_not_selected:first-of-type:hover,
+.status_not_selected:nth-of-type(2):hover,
+.status_not_selected:nth-of-type(3):hover,
+.status_not_selected:nth-of-type(4):hover,
+.status_not_selected:nth-of-type(5):hover,
+.status_not_selected:last-of-type:hover,
+.status_selected:first-of-type:hover,
+.status_selected:nth-of-type(2):hover,
+.status_selected:nth-of-type(3):hover,
+.status_selected:nth-of-type(4):hover,
+.status_selected:nth-of-type(5):hover,
+.status_selected:last-of-type:hover{
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #FFCB00;
+	transition: all 0.6s ease-in;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyright
+{	font-family: calibri;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color:#ffffff;
+	line-height: 12px;}
+
+#copyright:hover::before
+{width: 200px;
+height: auto !important;
+padding: 5px;
+font-size: 10px !important;
+color: #e5e5e5 !important;
+text-align: justify !important;
+background-image: none;
+transition: all 0.15s ease-in;}
+
+#copyright::before
+{content: "Design and coding of the right menu and credit box by filauria. Everything else by me.";
+display: block !important;
+font-size: 0px !important;
+color: transparent !important;
+position: fixed;
+height: 25px;
+width: 25px;
+top: 155px;
+left: 945px;
+background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+background-image: url(http://db.tt/uBvPkq8g);
+background-repeat: no-repeat;
+background-position: center;
+transition: all 0.15s ease-out;}

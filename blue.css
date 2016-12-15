@@ -1,0 +1,160 @@
+#mal_cs_listinfo {
+    width: 100px !important;
+}
+#mal_cs_links {
+    width: 200px !important;
+}
+small {
+  color: #FF0061;
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px rgba(255, 0, 97, 0.2);
+}
+BODY {
+    background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/black.png") repeat scroll 0 0 #ffffff;
+    color: #222222;
+}
+#list_surround {
+  background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F03668;
+  left: 175px;
+  top:0;
+  padding: 20px;
+  width: 710px;
+  position: absolute;
+  line-height:0px;
+}
+.header_cw,.header_completed,.header_onhold,.header_dropped,.header_ptw,.header_completed {
+
+}
+a {
+  color: #00B8DA !important;
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 184, 218, 0.2);
+}
+a:visited {
+    color: #222222;
+}
+a:hover {
+    color: #00B8DA;
+}
+
+.animetitle {
+  color: #222222 !important;
+  font-weight: normal;
+  text-shadow: 1px 1px rgba(34, 34, 34, 0.2);
+}
+.td1, .td2{
+	font-family: calibri;
+	font-size: 10px;
+	letter-spacing: 1px;
+    color: #444444;
+    padding: 5px 10px;
+	border-bottom: 0px dashed #222;
+	line-height: 12px;
+}
+.td1 {
+    background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #F7FCFD;;
+}
+.td2 {
+    background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0  #FFFFFF;
+}
+
+
+.table_header {
+    color: #222222;
+    letter-spacing: 2px;
+    padding: 3px;
+    /*text-shadow: 2px 0 #222222;*/
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 5px;
+	background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	line-height: 12px;
+}
+.table_headerLink {
+	font-family: calibri;
+	font-size: 10px;
+	letter-spacing: 1px;
+    color: #FFFFFF !important;
+    font-weight: normal;
+    text-decoration: none;
+	padding:5px;
+}
+.header_title {
+    display:none;
+    color: #FFFFFF;
+    font-size: 33px;
+    letter-spacing: 15px;
+    padding: 3px;
+    text-align: center;
+    text-shadow: 3px 0 #222222;
+    text-transform: uppercase;
+	margin: 0 0 -23px;
+}
+.table_headerLink:visited {
+}
+.table_headerLink:hover {
+}
+.form {
+}
+.status_selected {
+    font-size: 13px;
+}
+.status_not_selected {
+    font-size: 13px;
+}
+.header_cw {
+}
+.header_completed {
+}
+.header_onhold {
+}
+.header_dropped {
+}
+.header_ptw {
+}
+.header_title,.td1,.td2{
+}
+.category_totals {
+    background: url("https://dl.dropboxusercontent.com/u/53950022/%7EMAL/white.png") repeat scroll 0 0 #00B8DA;
+	font-family: calibri;
+	font-size: 10px;
+	color:#ffffff;
+	letter-spacing: 1px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+	line-height: 12px;
+}
+#grand_totals {
+font-family: calibri;
+	font-size: 10px;
+	color:#ffffff;
+	letter-spacing: 1px;
+    padding: 7px 0 0;
+    text-align: center;
+    line-height: 12px;
+}
+.header_al {
+    font-size: 16px;
+    font-weight: bold;
+}
+.header_al_links {
+}
+#:after
+{content: "";
+display: block !important;
+position: fixed !important;
+background-image: url(http://db.tt/LgtcgzqS);
+background-repeat: no-repeat;
+background-position: center;
+height: 178px;
+width: 150px;
+left: 150px !important;
+top: 150px;
+z-index: 50;
+border: 5px solid #333;}
+
+
