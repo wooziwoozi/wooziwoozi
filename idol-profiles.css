@@ -1,0 +1,440 @@
+body {
+    background: url("http://krissasaur.painted-wings.net/images/bg-white.png") repeat scroll 0 0 #eeeeee;
+    margin: 0;
+}
+#top {
+    margin: auto;
+    text-align: center;
+    height: 58%;
+    position: fixed;
+    overflow: auto;
+	width:100%;
+}
+#outer{
+	margin:auto;
+    text-align:center;
+	}
+table#about {
+    margin: auto;
+    width: 1077px;
+	border-spacing: 0px;
+}
+#about td {
+	padding:10px;
+	background:#FFFFFF;
+	box-shadow: 2px 2px 2px #eeeeee;
+    vertical-align: top;
+}
+div#float {
+    display: inline-block;
+    width: 370px;
+    padding: 20px;
+    margin: auto;
+	vertical-align: top;
+}
+@media(max-width: 1300px){
+div#float {
+    display: inline-block;
+    width: 370px;
+    padding: 8px;
+    margin: auto;
+    vertical-align: top;
+}
+}
+@media (max-width: 1168px){
+div#float {
+    display: inline-block;
+    width: 310px;
+    padding: 5px;
+    margin: auto;
+    vertical-align: top;
+}
+}
+#goback {
+    background: #444444;
+    padding: 2px 0 4px;
+    word-spacing: 15px;
+    color: #666666;
+}
+
+#goback a {
+    color:#FFFFFF;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+#goback a:hover {
+    color:#13C8DA;
+}
+
+#inner{
+	border-spacing: 0px;
+}
+#inner td {
+	padding:10px;
+	background:#FFFFFF;
+	box-shadow: 2px 2px 2px #eeeeee;
+    vertical-align: top;
+	}
+#artist {
+    background: transparent;
+    font-size: 70px;
+    font-family: calibri;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #cccccc;
+}
+td#profile-name {
+	padding:10px;
+    background: #444444;
+    color: #ffffff;
+    font-family: Open Sans Condensed;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 25px;
+	text-shadow: 1px 1px 1px #333333;
+}
+td#profile-image {
+    padding: 0px;
+	text-align: center;
+	width:118px;
+}
+#profile-image img{
+    width: 100px;
+    height: 138px;
+    border-width: 15px!important;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0.1) rgba(0,0,0,0.1) rgba(255,255,255,0.1);
+    padding: 0;
+	}
+#profile-text{
+	width:337px;
+    font-family: Capriola;
+    color: #8E8E8E;
+    text-align: left;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 0 10px;
+    line-height: 13px;
+    padding: 10px;
+	}
+#profile-notes{
+	width:337px;
+    font-family: calibri;
+    color: #8E8E8E;
+    text-align: left;
+    font-size: 11px;
+    padding: 0 10px;
+    line-height: 13px;
+    padding: 10px;
+	border: dashed #dddddd;
+    border-width: 1px 0 0 0;
+    background: #f9f9f9!important;
+}
+	
+	}
+td#video-image {
+}
+#video-image img {
+	padding: 0;
+    width: 300px;
+    margin: -10px;
+    border-width: 15px!important;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0.1) rgba(0,0,0,0.1) rgba(255,255,255,0.1);
+}
+td#video-text{
+    text-align: center;
+    width: 337px;
+    font-family: calibri;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 15px;
+    background: #444444;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+a, a:active, a:visited {
+	color: #444444;
+	font-family: calibri;
+	text-transform: uppercase;
+	transition: all ease-in .5s;
+	text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #cccccc;
+	}
+a:hover{
+	color: #13C8DA;
+	    text-shadow: 1px 1px 1px #99dee4;
+	}
+b{
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #444444;
+	}
+i{
+	color: #F590B0;
+	text-shadow: 1px 1px 1px #FFD0D0;
+	}
+.tooltip{
+    display: inline;
+    position: relative;
+}
+.tooltip:hover:after {
+	background: #444444;
+    bottom: 14px;
+    color: #fff;
+    content: attr(title);
+    margin: 0 -73px;
+    position: absolute;
+    z-index: 98;
+    width: 200;
+	font-weight:normal;
+    font-family: calibri;
+    text-align: left;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 10px;
+    text-shadow: none;
+    text-transform: none;
+    border: 3px #ffffff double;
+}
+
+
+
+
+
+
+
+/************************************************************
+POSTS
+************************************************************/
+#bottom{
+	margin:auto;
+    text-align:center;
+	background:url(http://krissasaur.painted-wings.net/images/bg-black.png) repeat scroll 0 0 #222222;
+	height:42%;
+	bottom:0;
+    position: fixed;
+    overflow: auto;
+	width:100%;
+	}
+.posts {
+    width:500px;
+    margin:auto;
+	text-align: center;
+    font-family: Capriola;
+    color: #8E8E8E;
+    text-align: left;
+    font-size: 9px;
+    padding: 0 10px;
+    line-height: 13px;
+    padding: 10px;
+}
+
+	
+/************************************************************
+CONTENT
+************************************************************/
+
+
+.content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 1px;
+    margin: 5px 0 15px;
+    padding: 15px;
+	box-shadow: 2px 2px 2px #333333;
+}
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+#photo {
+    max-width: 500px!important;
+    height: auto;
+    margin: 0 -15px;
+}
+#date {
+    margin: -15px -15px 0;
+    padding: 15px;
+    background: #444444;
+    color: #ffffff;
+    font-family: Open Sans Condensed;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 25px;
+}
+#date a {
+    color: #ffffff;
+    font-family: Open Sans Condensed;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+	text-shadow: 1px 1px 1px #333333;
+}
+#date a:hover {
+	color:#13C8DA;
+}
+#title {
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0 -15px 15px;
+    padding: 15px 0 0;
+    display: block;
+}
+a#title {
+    color: #444444;
+    font-family: Open Sans Condensed;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+h2{
+    font-size: 25px;
+    font-family: Open Sans Condensed;
+    text-align: center;
+    border-bottom: 1px dashed #dddddd;
+    margin: 0;
+    padding: 10px;
+	letter-spacing:2px;
+	font-weight:normal;
+}
+h2 a{
+    font-size: 25px;
+    font-family: Open Sans Condensed;
+	font-weight:normal;
+}
+h2 a:hover{
+	color:#13C8DA;}
+.footer {
+    background:#ffffff;
+    font-family: calibri;
+    font-size:12px;
+    letter-spacing:1px;
+    line-height:15px;
+	color:#888888;
+	width:500px;
+    padding:10px 10px;
+    margin:5px 0;
+	text-align:justify;
+    height:20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 1px;
+	}
+.eunhyuk {
+    padding: 0 10px;
+}
+.tags {
+    text-align: center;
+    margin: 0 -15px -15px;
+    padding: 10px;
+    -webkit-transition: opacity 0.7s linear;
+    opacity: 1;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    width: 337px;
+    font-family: calibri;
+    color: #8E8E8E;
+    font-size: 11px;
+    border: dashed #dddddd;
+    border-width: 1px 0 0 0;
+    background: #f9f9f9!important;
+    width: 480px;
+} 
+	
+.tags a{
+	color:#8E8E8E;
+	text-shadow: 1px 1px 1px #dddddd;
+}	
+.tags a:hover{
+	color:#13C8DA;
+}
+/************************************************************
+RESPONSIVE
+************************************************************/
+
+/************************************************************
+FONTS
+************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJwNa6kgmw9HIHjUBPkzL2f3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xKdGPpWTn2kPFru4k7T0T-v3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xN9i7v7U2vZkHC55NWxtqfn3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xK1ueDcgZDcfV3TWANvdPLj3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC3qj1XlvLGj0jktnJzWu233rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC8hAQ4ocbp44gFQt8tMfcH3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Capriola';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Capriola Regular'), local('Capriola-Regular'), url(https://fonts.gstatic.com/s/capriola/v4/MCXNg459ZtebBVYIDxweyhTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Capriola';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Capriola Regular'), local('Capriola-Regular'), url(https://fonts.gstatic.com/s/capriola/v4/1uu0rRDB9aBBIKvbF1Q_1PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
