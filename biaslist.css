@@ -1,0 +1,397 @@
+
+/**************************************************************************
+CURSORS
+**************************************************************************/
+body{cursor: url(http://i.imgur.com/2qleX.jpg), auto;}
+a:hover {cursor: url(http://i.imgur.com/IepP2.jpg), auto;}
+
+/**************************************************************************
+SCROLLBARS
+**************************************************************************/
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+/* Track */ 
+::-webkit-scrollbar-track { 
+    background: #E4E4E4; 
+    border:1px solid #E4E4E4;
+}
+ 
+/* Handle */  
+::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border:1px solid #E4E4E4;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #ffffff; 
+} 
+
+
+
+#eunhyuk {
+    background: rgb(255, 255, 255);
+    padding: 15;
+    line-height: 0px;
+    margin: 20px;
+}
+
+#eunhyuk .title {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF0936;
+    text-shadow: 1px 1px rgba(255, 84, 84, 0.5);
+    font-weight:bold;
+    float:left;
+}
+#eunhyuk .links {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #eeeeee;
+    float:right;
+}
+#eunhyuk .links a {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #03BED9;
+}
+#eunhyuk .links a:hover {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px rgba(255, 192, 60, 0.5);
+    color: #FFA51D;
+}
+
+
+/**************************************************************************
+BODY
+**************************************************************************/
+html{
+	
+}
+
+body    {		
+	background: #E4E4E4 url(http://i.imgur.com/uXyFE0z.png) repeat fixed;
+    color: #999999;
+    font-family: Trebuchet MS;
+    line-height: 12px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+	}
+#menu {
+    width: 100%;
+}
+.container {
+	background: #eeeeee url('http://i.imgur.com/G2USoci.png')repeat fixed;
+	top: 0;   
+	right: 0;
+	bottom: 0;
+	left: 0;       
+	margin: auto;
+	width:1190px;
+	height: 100%;
+	text-align: center;  
+}
+@media (max-width: 1300px){
+.container {
+    width: 885px;       
+}
+}
+#scroll {
+    height: 100vh;
+    overflow-y: scroll;
+}
+#middle {
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    margin-top: -325px;
+    margin-left: -593px;
+}
+/************************************************************
+FLOAT
+************************************************************/
+#float {
+    display: inline-block;
+    padding: 7px;
+    margin: 17px 10px;
+	vertical-align: top;
+    background: #ffffff;
+}
+#image {
+    width: 100px;
+    height: 130px;
+}
+#ribbon {
+    margin: -30px 0 0 -10px;
+    text-align: center;
+    position: relative;
+}
+/************************************************************
+LINKS
+************************************************************/
+a:link, a:active, a:visited {
+	color: #03BED9;
+    text-shadow: 1px 1px 1px rgba(39, 197, 209, 0.50);
+    text-transform: uppercase;
+    padding: 1px 2px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-decoration:none;
+	} 
+
+a:hover {
+	color:#666666;
+	text-decoration:none;
+	}	
+
+	
+/************************************************************
+FONT WEIGHTS
+************************************************************/
+u   {
+    text-decoration: none;
+	color: #FF0936;
+	font-family: lucida console;
+	border-bottom: 2px #FAA9B1 dotted;
+	text-shadow: 1px 1px 1px #FAA9B1;
+	font-size: 10px;
+    }
+b, strong {
+    color: #FF0936;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    text-shadow: 1px 1px rgba(255, 84, 84, 0.50);
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+	}
+i,em   {
+    color: #FFA51D;
+    text-shadow: 1px 1px rgba(255, 192, 60, 0.50);
+    white-space: normal!important;
+    }
+s,strike   {
+    color:#FFA51D;
+    }
+s:hover,strike:hover   {
+    color:#929292;
+    }
+
+h1 {
+    color: #ffffff;
+    font-family: consolas;
+    text-transform: uppercase;
+    padding: 1px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #eeeeee;
+    font-weight: normal z-index: 99;
+    width: 118px;
+    background-color: #03BED9;
+    z-index: 99;
+    border-bottom: 1px dashed #ffffff;
+    border-top: 1px dashed #ffffff;
+}
+
+h2 {
+    color: #FF0936;
+    font-family: consolas;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #eeeeee;
+    font-weight: normal z-index: 99;
+    z-index: 99;
+    margin:0;
+}
+#about {
+    /* position: relative; */
+    text-align: justify;
+    width: 166px;
+    /* margin: -132px 0 0 0; */
+    float: right;
+    padding: 5px;
+    border: 3px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+#credit{ 
+    -webkit-column-count:3; /* Chrome, Safari, Opera */
+    -moz-column-count:3; /* Firefox */
+    column-count:3; 
+    
+    margin: 15px -20px 0 20px;
+    position: static;
+    text-align: justify;
+    width: 904px;
+    padding: 5px;
+    border: 3px solid #eeeeee;
+    background-color: #ffffff;
+}
+#intro{  
+    text-align: justify;
+    width: 904px;
+    padding: 5px;
+    border: 3px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+#other{ 
+    -webkit-column-count:3; /* Chrome, Safari, Opera */
+    -moz-column-count:3; /* Firefox */
+    column-count:3;
+-webkit-column-rule:1px outset #eeeeee; /* Chrome, Safari, Opera */
+-moz-column-rule:1px outset #eeeeee; /* Firefox */
+column-rule:1px outset #eeeeee;
+    
+    text-align: justify; 
+    width: 904px;
+    padding: 5px 5px 0;
+    border: 3px solid #eeeeee;
+    background-color: #ffffff; 
+}
+td {
+    width: 1px;
+    color: #999999;
+    font-family: Trebuchet MS;
+    line-height: 12px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+td .tooltipcontainer {
+    position: relative;
+    transition: all 0.15s ease;
+}
+td .tooltip {
+    opacity: 0;
+    position: absolute;
+    margin: -170px 0 0 -18px;
+    height: 120px;
+    width: 140px;
+    transition: all 0.15s ease;
+    text-align: justify;
+    float: right;
+    padding: 5px;
+    border: 3px solid #FFFFFF;
+    background-color: #ffffff;
+    transition: all .7s ease;
+}
+td #ribbon:hover .tooltip {
+    opacity:1;
+    transition: all .7s ease;
+}
+
+td #nipple {
+    opacity:0;
+    border-left: 7px solid rgba(0, 0, 0, 0);
+    border-right: 7px solid rgba(0, 0, 0, 0);
+    border-top: 7px solid #ffffff;
+    margin: -34px 0 0 51px;
+    width: 0;
+    transition: all .7s ease;
+}
+
+td #ribbon:hover #nipple {
+    opacity:1;
+    transition: all .7s ease;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************
+FONTS
+************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJwNa6kgmw9HIHjUBPkzL2f3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xKdGPpWTn2kPFru4k7T0T-v3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xN9i7v7U2vZkHC55NWxtqfn3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xK1ueDcgZDcfV3TWANvdPLj3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC3qj1XlvLGj0jktnJzWu233rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC8hAQ4ocbp44gFQt8tMfcH3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Capriola';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Capriola Regular'), local('Capriola-Regular'), url(https://fonts.gstatic.com/s/capriola/v4/MCXNg459ZtebBVYIDxweyhTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Capriola';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Capriola Regular'), local('Capriola-Regular'), url(https://fonts.gstatic.com/s/capriola/v4/1uu0rRDB9aBBIKvbF1Q_1PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
